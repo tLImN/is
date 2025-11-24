@@ -1,7 +1,7 @@
 {
-  "name": "is-components-new",
-  "description": "Is components",
-  "version": "0.0.4",
+  "name": "is-components-20",
+  "description": "Is components 20",
+  "version": "0.0.6",
   "license": "MIT",
   "type": "module",
   "main": "dist/index.js",

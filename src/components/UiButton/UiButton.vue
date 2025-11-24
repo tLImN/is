@@ -49,4 +49,8 @@ const props = withDefaults(defineProps<IProps>(), {
     background-color: var(--color-primary);
   }
 }
+
+.button:disabled {
+  background-color: var(--color-gray);
+}
 </style>
