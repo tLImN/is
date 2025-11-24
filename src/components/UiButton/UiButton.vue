@@ -31,11 +31,22 @@ const props = withDefaults(defineProps<IProps>(), {
   color: var(--color-white);
   background: var(--color-primary);
   border-radius: 16px;
+  border: none;
 
   &[data-layout='secondary'] {
     color: var(--color-primary);
     background-color: var(--color-transparent);
-    border-color: var(--color-primary);
+    border: 1px solid var(--color-primary);
+  }
+}
+
+.button:hover {
+  background-color: var(--color-primary-hover);
+  transition-duration: 0.3s;
+
+  &[data-layout='secondary'] {
+    color: var(--color-white);
+    background-color: var(--color-primary);
   }
 }
 </style>
